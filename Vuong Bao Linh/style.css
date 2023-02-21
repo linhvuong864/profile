@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(to right, #30CFD0 0%, #330867 100%); 
   color: #fff;
+  
 }
 
 /* Container chứa toàn bộ thông tin */
@@ -9,12 +10,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px auto;
-  max-width: 600px;
+  margin: 10px auto;
+  max-width: 500px;
   padding: 20px;
   border-radius: 10px;
-  border: 7px solid #39d2c0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 3px solid #13ddb5;
+  box-shadow: 0 0 10px rgba(8, 223, 226, 0.2);
+  background: url(D:/XAMPP/htdocs/image/background-3d-dong.gif) no-repeat center;
 }
 
 /* Hình đại diện */
@@ -24,7 +26,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-  border: 4px solid #fff;
+  border: 4px solid #13ddb5;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
