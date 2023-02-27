@@ -1,0 +1,120 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%); 
+    color: #fff;
+    
+  }
+  
+  /* Container chứa toàn bộ thông tin */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #13ddb5;
+    box-shadow: 0 0 10px rgba(238, 80, 32, 0.2);
+    background: url(D:/XAMPP/htdocs/image/background-3d-dong.gif) no-repeat center;
+  }
+  
+  /* Hình đại diện */
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #13ddb5;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Tên */
+  .name {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+      color: #39d2c0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Mã sinh viên */
+  .id {
+    font-size: 24px;
+    margin: 0;
+    color: #39d2c0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Phần tiêu đề */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #39d2c0;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Liên kết */
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  .phone-btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #17dd45;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .facebook-btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    transition: all 0.3s ease-in-out;
+    background-color: #3b5998;
+  }
+  
+  .twitter-btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    transition: all 0.3s ease-in-out;
+    background-color: #1da1f2;
+  }
+  
