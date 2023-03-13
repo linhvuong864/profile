@@ -76,13 +76,33 @@ nav {
     overflow: hidden;
     
 }
+.wrapper ::before {
+    position: absolute;
+    content: '';
+    height: 1200px;
+    width: 10px;
+    border: 4px solid #000000;
+    border-radius: 5px;
+    left: -50px;
+    top: 200px;
+    background: #ff0000;
+    animation: object1 4s linear infinite;
+}
+@keyframes object1 {
+    50%{
+        left: -70px;
+        top: 250px;
+    }
+}
 .cols {
     width: 50%;
+    z-index: 1;
     
 }
+
 .topline {
     display: block;
-    position: relative;
+    
     font-size: 35px;
     letter-spacing: 5px;
     color: #f20000;
@@ -94,7 +114,7 @@ nav {
 }
 h1 {
     display: block;
-    font-size: 7em;
+    font-size: 6em;
     font-weight: 900;
     color: #f20000;
 }
@@ -109,7 +129,7 @@ p {
     color: #f20000;
 }
 .btns {
-    width: 100%;
+    width: 40%;
     position: relative;
     left: 150px;
 }
@@ -131,25 +151,27 @@ button :hover {
     background-color: #000000;
 }
 .imgbox {
-    position: relative;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 .imgbox img{
     position: relative;
     height: 100%;
     width: 100%;
-    top: -100px;
+    top: -80px;
     right: 30px;
     animation: animateUser 4s linear infinite;
 }
 
+
 @keyframes animateUser {
     50%{
-        right: 30px;
-        top:  -90px;
+        right: 40px;
+        top:  -75px;
     }
 }
+
 .navItems a::after {
 	content: "";
 	height: 5px;
